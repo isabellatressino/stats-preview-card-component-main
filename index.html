@@ -13,9 +13,13 @@
 <body>
 
   <main>
+    
     <section id="imagem">
-      <img src="images/image-header-mobile.jpg" alt="" id="mobile">
-      <img src="images/image-header-desktop.jpg" alt="" id="desktop">
+      <picture>
+        <source media="(max-width:300px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="" aria-hidden="true">
+      </picture>
+    
     </section>
     <section id="conteudo">
       <h1>Get <strong>insights</strong> that help your business grow.</h1>
@@ -23,7 +27,7 @@
         Discover the benefits of data analytics and make better decisions regarding revenue, customer
         experience, and overall efficiency.
       </p>
-      
+
       <ul class="list-container">
     
           <li>

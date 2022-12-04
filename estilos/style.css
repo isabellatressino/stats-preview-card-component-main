@@ -40,13 +40,10 @@ section#imagem{
     overflow: hidden;
 }
 
-img#mobile{
+img{
     width: 100%;
-    mix-blend-mode: multiply; 
+    mix-blend-mode: multiply;
     opacity: 0.8;
-}
-img#desktop{
-    display: none;
 }
 
 section#conteudo{
@@ -121,12 +118,7 @@ footer{
         width: 100%;
     }
 
-    img#mobile{
-        display: none;
-    }
-
-    img#desktop{
-        display: block;
+    img{
         mix-blend-mode: multiply; 
         opacity: 0.8;
         width: 100%;
